@@ -1,0 +1,22 @@
+{
+    "name": "omerfarukbicer0446/gapi",
+    "description": "Github unofficial api ve içinde gui desteklidir.",
+    "type": "library",
+    "license": "MIT",
+    "homepage": "http://github.com/omerfarukbicer0446/gapi",
+    "keywords": ["github","api","unofficial"],
+    "version": "1.0",
+    "authors": [
+        {
+            "name": "omerfarukbicer0446",
+            "email": "omerfarukbicer0446@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Gapi\\Core\\": "src/Core",
+            "Gapi\\Gui\\": "src/Gui"
+        }
+    },
+    "require": {}
+}
